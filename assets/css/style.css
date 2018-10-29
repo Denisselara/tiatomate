@@ -164,11 +164,11 @@
     }
 
     .descripcion__inner__image-top {
-      background-image: url('assets/img/img-history.png');
+      background-image: url('../img/img-history.png');
     }
 
     .descripcion__inner__image-bottom {
-      background-image: url('assets/img/our-tomatoes.png');
+      background-image: url('../img/our-tomatoes.png');
     }
 
     @media only screen and (max-width : 767px){
@@ -263,11 +263,11 @@
     }
 
     .nosotros__personas__image-top {
-      background-image: url('assets/img/javiera-kunstmann.png');
+      background-image: url('../img/javiera-kunstmann.png');
     }
 
     .nosotros__personas__image-bottom {
-      background-image: url('assets/img/roberto-pacheco.png');
+      background-image: url('../img/roberto-pacheco.png');
     }
 
     @media only screen and (max-width : 767px){
