@@ -83,6 +83,7 @@ p,li,a,small{
 }
 
 ==FONT HIERARCHY==
+
 h1{
   font-size: 3em;
 }
@@ -115,6 +116,7 @@ p{
 }
 
 ==BUTTON==
+
   .button_tiatomate{
   }
 
@@ -128,6 +130,7 @@ p{
   }
 
 ==NAVBAR==
+
   .navbar_tiatomate{
   }
 
@@ -141,6 +144,7 @@ p{
   }
 
 ==HEADER==
+
   .header_tiatomate{
   }
 
@@ -219,6 +223,7 @@ p{
   }
 
 ==NOSOTROS==
+
   .nosotros{
   }
 
@@ -280,6 +285,7 @@ p{
   }
 
 ==NEGOCIO==
+
   .negocio{
   }
 
@@ -308,6 +314,7 @@ p{
   }
 
 ==FOOTER==
+
       .footer{
       }
 
