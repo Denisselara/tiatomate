@@ -1,0 +1,441 @@
+  /* Global Styles */
+
+  h1,h2,h3{
+    font-family: Raleway;
+  }
+
+  p,li,a,small{
+    font-family: OpenSans;
+  }
+
+  /* Font hierarchy */
+  h1{
+    font-size: 3em;
+  }
+
+  h2{
+    font-size: 2.25em;
+  }
+
+  h3{
+    font-size: 1.75em;
+  }
+
+  p{
+    color: hsla(0,0%,0.8);
+  }
+
+  @media only screen and (max-width : 767px) {
+
+    h1{
+      font-size: 2em;
+    }
+
+    h2{
+      font-size: 1.625em;
+    }
+
+    h3{
+      font-size: 1.375em;
+    }
+  }
+
+    /* Button */
+    .button_tiatomate{
+      background-color: #E56353;
+      border-radius: 30px;
+      padding: 2rem 6rem;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .button_tiatomate:hover{
+      background-color: hsla(10, 100%, 60%, .1);
+      color: ##F4D0D0;
+    }
+
+    .button_tiatomate2{
+      background-color: #FAFAFA;
+      border-radius: 30px;
+      padding: 2rem 6rem;
+      color: #707070;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .button_tiatomate:hover{
+      background-color: hsla(10, 100%, 60%, .1);
+      color: ##F4D0D0;
+    }
+
+    /* Navbar */
+    .navbar_tiatomate{
+    background-color: #FAFAFA;
+    color: hsla(0, 100%, 100%, 0.52);
+    }
+
+    .icon-bar{
+      background-color: #FAFAFA;
+    }
+
+    .navbar-brand img{
+      max-width: 120px;
+    }
+
+    .navbar{
+      margin-bottom: 0;
+    }
+
+    /* Header */
+    .header_tiatomate{
+      background-color: #E56353;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      height: 500px;
+      padding-top: 150px;
+      background-position: right bottom;
+    }
+
+    .header_tiatomate h1{
+      color: #FAFAFA;
+      font-size: 5em;
+    }
+
+    .header_tiatomate p{
+      color: hsla(0, 0%, 100%, .8);
+      line-height: 22px;
+      padding: 1rem 30vw;
+    }
+
+    @media only screen and (max-width : 767){
+
+      .header_tiatomate{
+        height: 500px;
+        padding-top: 70px;
+        background-position: center;
+      }
+
+      .header_tiatomate h1{
+        font-size: 3em;
+      }
+
+      .header_tiatomate p{
+        padding: 1rem 4rem;
+      }
+    }
+
+    /* descripcion */
+
+    .descripcion {
+      text-align: center;
+      padding-top: 4rem;
+      margin: 0;
+    }
+
+    .descripcion h2 {
+      font-size: 3em;
+    }
+
+    .descripcion p {
+      padding: 1rem 24vw;
+    }
+
+    .descripcion > hr {
+      visibility: hidden;
+    }
+
+    .descripcion__inner {
+      text-align: left;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 10vh 5vw 0 5vw;
+    }
+
+    .descripcion__inner h3 {
+      font-size:  2.8em;
+    }
+
+    .descripcion__inner p {
+      padding: 1rem 8vw 1rem 0;
+    }
+
+    .descripcion__inner__image-top {
+      background-image: url('assets/img/img-history.png');
+    }
+
+    .descripcion__inner__image-bottom {
+      background-image: url('assets/img/our-tomatoes.png');
+    }
+
+    @media only screen and (max-width : 767px){
+
+      .descripcion {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      .descripcion h2 {
+        font-size: 2em;
+      }
+
+      .descripcion p {
+        padding: 2rem 10vw 1rem 10vw;
+      }
+
+      .descripcion hr {
+        visibility: visible;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100px;
+      }
+
+      .descripcion__inner {
+        padding: 0 2rem 4rem 15vw;
+        height: auto;
+      }
+
+      .descripcion__inner h3 {
+        font-size: 1.5em;
+      }
+
+      .descripcion__inner p {
+        padding: 1rem 8vw 1rem 0;
+      }
+
+      .descripcion__inner__image-top, .descripcion__inner__image-bottom {
+        display: none;
+      }
+    }
+
+  /* Nosotros */
+    .nosotros{
+      background-color: #E56353;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      height: 350px;
+      padding-top: 100px;
+      background-position: right bottom;
+    }
+
+    .nosotros h1{
+      color: #FAFAFA;
+      font-size: 5em;
+    }
+
+    .nosotros__personas {
+      text-align: center;
+      padding-top: 4rem;
+      margin: 0;
+    }
+
+    .nosotros__personas h2 {
+      font-size: 3em;
+    }
+
+    .nosotros__personas p {
+      padding: 1rem 24vw;
+    }
+
+    .nosotros__personas > hr {
+      visibility: hidden;
+    }
+
+    .nosotros__personas {
+      text-align: left;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 10vh 5vw 0 5vw;
+    }
+
+    .nosotros__personas h3 {
+      font-size:  2.8em;
+    }
+
+    .nosotros__personas p {
+      padding: 1rem 8vw 1rem 0;
+    }
+
+    .nosotros__personas__image-top {
+      background-image: url('assets/img/javiera-kunstmann.png');
+    }
+
+    .nosotros__personas__image-bottom {
+      background-image: url('assets/img/roberto-pacheco.png');
+    }
+
+    @media only screen and (max-width : 767px){
+
+      .nosotros__personas {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      .nosotros__personas h2 {
+        font-size: 2em;
+      }
+
+      .nosotros__personas p {
+        padding: 2rem 10vw 1rem 10vw;
+      }
+
+      .nosotros__personas hr {
+        visibility: visible;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100px;
+      }
+
+      .nosotros__personas {
+        padding: 0 2rem 4rem 15vw;
+        height: auto;
+      }
+
+      .nosotros__personas h3 {
+        font-size: 1.5em;
+      }
+
+      .nosotros__personas p {
+        padding: 1rem 8vw 1rem 0;
+      }
+
+      .nosotros__personas__image-top, ..nosotros__personas__image-bottom {
+        display: none;
+      }
+    }
+
+  /* Negocio */
+    .negocio{
+      background-color: #E56353;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      height: 350px;
+      padding-top: 100px;
+      background-position: right bottom;
+    }
+
+    .negocio h1{
+      color: #FAFAFA;
+      font-size: 5em;
+    }
+
+    .negocio {
+      text-align: center;
+      padding-top: 4rem;
+      margin: 0;
+    }
+
+    .negocio > hr {
+      visibility: hidden;
+    }
+
+    @media only screen and (max-width : 767px){
+
+      .negocio {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      .negocio hr {
+        visibility: visible;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100px;
+      }
+
+      .negocio h1{
+        font-size: 3em;
+      }
+
+      .negocio {
+        padding: 40 2rem 4rem 15vw;
+        height: auto;
+      }
+    }
+
+      /* Footer */
+        .footer{
+          background-color: #686963;
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+          height: 350px;
+          padding-top: 10px;
+          background-position: right bottom;
+        }
+
+        .footer__secciones {
+          background-color: #686963;
+          text-align: center;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding: 10vh 5vw 0 5vw;
+        }
+
+        .footer p {
+          padding: 1rem 24vw;
+          color: #FFFFFF;
+        }
+
+        .footer > hr {
+          visibility: hidden;
+        }
+
+        .footer__secciones p {
+          padding: 1rem 8vw 1rem 0;
+        }
+
+        .socialnetworkfooter img{
+          max-width: 300px;
+        }
+
+      @media only screen and (max-width : 767px){
+
+        .footer p {
+          padding: 2rem 10vw 1rem 10vw;
+        }
+
+        .footer hr {
+          visibility: visible;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 100px;
+        }
+
+        .footer__secciones {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+
+        .footer__secciones h2 {
+          font-size: 2em;
+        }
+
+        .footer__secciones p {
+          padding: 2rem 10vw 1rem 10vw;
+        }
+
+        .footer__secciones hr {
+          visibility: visible;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 100px;
+        }
+
+        .footer__secciones {
+          padding: 0 2rem 4rem 15vw;
+          height: auto;
+        }
+
+        .footer__secciones p {
+          padding: 1rem 8vw 1rem 0;
+        }
+      }
