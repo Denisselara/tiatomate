@@ -62,6 +62,9 @@ Para el maquetado general, se utilizará:
 * 2 imagenes genericas de tomates
 * 2 imágenes dueños empresa
 
+-Iconos Redes Sociales
+* Font Awesome
+
 ## 2) Sketch Desktop
 
 ![](maquetacion/Sketch_Desktop2.png?raw=true)
